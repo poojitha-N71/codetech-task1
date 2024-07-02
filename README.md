@@ -71,5 +71,3 @@ The body background color is set to sky blue.
 The container has a peach puff background, with padding, border radius, and a box shadow for a card-like appearance.
 Form groups and buttons have specific margins for spacing.
 Table styling includes padding, borders, and background colors for headers.
-Summary
-This project provides a functional and aesthetically pleasing To-Do List application. Using Bootstrap ensures a responsive design, while JavaScript handles the addition, deletion, and persistence of tasks through local storage. This makes it a handy tool for managing daily tasks efficiently.
