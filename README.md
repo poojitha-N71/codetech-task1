@@ -20,11 +20,15 @@ View Tasks: Tasks are displayed in a structured table format.
 Delete Tasks: Users can remove individual tasks.
 Clear All Tasks: An option to clear all tasks from the local storage.
 Persistent Storage: Utilizes local storage to save tasks between sessions.
+
 HTML Structure
+
 Head Section
 Includes meta tags for character set and viewport settings.
 Links Bootstrap CSS for styling.
 Sets the title of the page to "ToDo-List".
+
+
 Body Section
 Navigation Bar
 A responsive navigation bar with links to Home, a generic link, and a dropdown menu.
@@ -38,6 +42,8 @@ Textarea for the task description.
 "Clear All" button to clear all tasks from local storage.
 Table for Displaying To-Do Items:
 Displays the list of tasks with columns for serial number, title, description, and actions.
+
+
 JavaScript Functionality
 getAndUpdate()
 Fetches values from the title and description fields.
@@ -53,9 +59,13 @@ Updates local storage and refreshes the displayed list.
 clearStorage()
 Clears all tasks from local storage.
 Refreshes the displayed list.
+
+
 Event Listeners
 Adds an event listener to the "Save" button to call getAndUpdate() when clicked.
 Initializes the display by calling update() to load existing tasks from local storage when the page loads.
+
+
 CSS Styling
 The body background color is set to sky blue.
 The container has a peach puff background, with padding, border radius, and a box shadow for a card-like appearance.
